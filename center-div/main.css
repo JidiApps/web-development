@@ -1,0 +1,53 @@
+body {
+  margin-top: 100px;
+  margin-left: 50px;
+  background-color: #0a0519;
+}
+
+.container {
+  width: 400px;
+  height: 200px;
+  padding: 15px;
+  border: 1px solid #411a7f;
+  border-radius: 10px;
+  background-image: linear-gradient(135deg, #000000, #27094f);
+  box-shadow: 10px 10px 45px #411a7f;
+}
+
+.container .child {
+  width: 100px;
+  height: 30px;
+  text-align: center;
+  background-color: #160133;
+  color: #9875d0;
+  padding-top: 10px;
+  border: 1px solid #9875d0;
+  border-radius: 10px;
+}
+
+/** Method 1 **/
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/** Method 2 **/
+
+/* .container {
+  display: grid;
+  place-items: center;
+} */
+
+/** Method 3 **/
+
+/* .container {
+  position: relative;
+}
+.container .child {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+} */

@@ -1,0 +1,15 @@
+body {
+  margin-top: 100px;
+  margin-left: 50px;
+  background-color: #0a0519;
+}
+
+.container {
+  width: 400px;
+  height: 200px;
+  padding: 15px;
+  border: 1px solid #411a7f;
+  border-radius: 10px;
+  background-image: linear-gradient(135deg, #000000, #27094f);
+  box-shadow: 10px 10px 45px #411a7f;
+}
